@@ -33,8 +33,8 @@ int main (int argc, char * const argv[])
     int step_size = 3;
     
     // Assumes a certain file structure e.g., /root/img/basename/00000000.jpg
-    string root = "";       // TODO INSERT FULL PATH TO PROJECT
-    string basename = "";   // LEAVE BLANK FOR NOW
+    string root = "";       //TODO INSERT ABSOLUTE PATH 
+    string basename = "";
     string img_prefix		= root + "img"		+ basename + "/";			// color images
     string msk_prefix		= root + "mask"     + basename + "/";			// binary masks
     string model_prefix		= root + "models"	+ basename + "/";			// output path for learned models
