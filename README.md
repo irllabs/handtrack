@@ -15,7 +15,7 @@ Hand Tracker uses Xcode which can be installed from the Mac App Store [here](htt
 This project also uses the OpenCV library (Version 2.4.13 or 2.4.12) for C++. 
 ### OpenCV on OS X
 Two ways to install OpenCV on OS X: 
-  1. Using [Homebrew](http://brew.sh): 
+  1. Using [Homebrew](http://brew.sh), from the terminal: 
   	```
 	brew update
 	brew install opencv
