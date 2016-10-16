@@ -1,11 +1,20 @@
 # Hand Tracker
-Hand Tracker is a Machine Vision Hand Tracking program written in C++ using the popular Computer Vision library OpenCV. It is based on work by Kris Kitani.
+This repository contains code for performing segmenting the human hand from the background using pixel-level classification.  This project is based on work by Cheng Li and Kris Kitani, and documented in the publication below: 
+
+Cheng Li and Kris M. Kitani.
+[Pixel-level Hand Detection for Ego-centric Videos](http://www.cs.cmu.edu/~kkitani/pdf/LK-CVPR13.pdf)
+Conference on Computer Vision and Pattern Recognition (CVPR 2013). Jun 2013.
+
+This project relies on OpenCV.
 
 ## Dependencies
-Hand Tracker uses Xcode which can be installed from the Mac App Store [here](https://itunes.apple.com/us/app/xcode/id497799835?mt=12).
+### IDE
+This project is ported to work in Apple's [Xcode]
+Hand Tracker uses Xcode which can be installed from the Mac App Store [here](https://developer.apple.com/xcode/downloads/).
 
 This project also uses the OpenCV library (Version 2.4.13 or 2.4.12) for C++. 
-### Install OpenCV on Mac
+### OpenCV on OS X
+Two ways to install OpenCV on OS X: 
   1. Using [Homebrew](http://brew.sh): `brew install opencv`
   	* Make sure OpenCV's dependencies are also installed, you can check using `brew info opencv`
   2. Downloading [OpenCV](http://opencv.org/downloads.html) and building it using [cMake](https://cmake.org/download/)
