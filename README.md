@@ -16,8 +16,11 @@ This project also uses the OpenCV library (Version 2.4.13 or 2.4.12) for C++.
 ### OpenCV on OS X
 Two ways to install OpenCV on OS X: 
   1. Using [Homebrew](http://brew.sh): 
-  	`brew update`
-	`brew install opencv`
+  	```
+	brew update
+	brew install opencv
+	```
+  	
   	* Make sure OpenCV's dependencies are also installed, you can check using `brew info opencv`
   2. Downloading [OpenCV](http://opencv.org/downloads.html) and building it using [cMake](https://cmake.org/download/)
   	* [This tutorial](http://blogs.wcode.org/2014/10/howto-install-build-and-use-opencv-macosx-10-10/) provides greater detail for setting up OpenCV with cMake and Xcode.
