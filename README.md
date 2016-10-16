@@ -18,6 +18,7 @@ Two ways to install OpenCV on OS X:
   1. Using [Homebrew](http://brew.sh), from the terminal: 
   	```
 	brew update
+	brew tap homebrew/science
 	brew install opencv
 	```
   	
