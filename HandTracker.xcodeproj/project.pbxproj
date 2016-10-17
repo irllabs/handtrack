@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		414845891DB40FC40085667B /* Classifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 414845521DB40FC40085667B /* Classifier.cpp */; };
-		4148458A1DB40FC40085667B /* FeatureComputer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 414845541DB40FC40085667B /* FeatureComputer.cpp */; };
-		4148458B1DB40FC40085667B /* HandDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 414845581DB40FC40085667B /* HandDetector.cpp */; };
-		4148458C1DB40FC40085667B /* LcBasic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4148456F1DB40FC40085667B /* LcBasic.cpp */; };
-		4148458D1DB40FC40085667B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 414845711DB40FC40085667B /* main.cpp */; };
 		41CD6ACA1DB402B6001B0033 /* libopencv_calib3d.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CD6A8D1DB402B6001B0033 /* libopencv_calib3d.2.4.13.dylib */; };
 		41CD6ACB1DB402B6001B0033 /* libopencv_calib3d.2.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CD6A8E1DB402B6001B0033 /* libopencv_calib3d.2.4.dylib */; };
 		41CD6ACC1DB402B6001B0033 /* libopencv_calib3d.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CD6A8F1DB402B6001B0033 /* libopencv_calib3d.dylib */; };
@@ -137,13 +132,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		414845521DB40FC40085667B /* Classifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Classifier.cpp; sourceTree = "<group>"; };
-		414845531DB40FC40085667B /* Classifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Classifier.h; sourceTree = "<group>"; };
-		414845541DB40FC40085667B /* FeatureComputer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FeatureComputer.cpp; sourceTree = "<group>"; };
-		414845551DB40FC40085667B /* FeatureComputer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FeatureComputer.hpp; sourceTree = "<group>"; };
+		4135A97E1DB482250034E4CD /* Classifier.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Classifier.cpp; sourceTree = "<group>"; };
+		4135A97F1DB482250034E4CD /* Classifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Classifier.h; sourceTree = "<group>"; };
+		4135A9801DB482250034E4CD /* FeatureComputer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FeatureComputer.cpp; sourceTree = "<group>"; };
+		4135A9811DB482250034E4CD /* FeatureComputer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FeatureComputer.hpp; sourceTree = "<group>"; };
+		4135A9821DB482250034E4CD /* HandDetector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HandDetector.cpp; sourceTree = "<group>"; };
+		4135A9831DB482250034E4CD /* HandDetector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HandDetector.hpp; sourceTree = "<group>"; };
+		4135A9841DB482250034E4CD /* LcBasic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LcBasic.cpp; sourceTree = "<group>"; };
+		4135A9851DB482250034E4CD /* LcBasic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LcBasic.h; sourceTree = "<group>"; };
+		4135A9861DB482250034E4CD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		414845571DB40FC40085667B /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
-		414845581DB40FC40085667B /* HandDetector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HandDetector.cpp; sourceTree = "<group>"; };
-		414845591DB40FC40085667B /* HandDetector.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HandDetector.hpp; sourceTree = "<group>"; };
 		4148455B1DB40FC40085667B /* 00000101.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 00000101.jpg; sourceTree = "<group>"; };
 		4148455C1DB40FC40085667B /* 00000102.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 00000102.jpg; sourceTree = "<group>"; };
 		4148455D1DB40FC40085667B /* 00000103.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 00000103.jpg; sourceTree = "<group>"; };
@@ -164,9 +162,6 @@
 		4148456C1DB40FC40085667B /* 00000118.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 00000118.jpg; sourceTree = "<group>"; };
 		4148456D1DB40FC40085667B /* 00000119.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 00000119.jpg; sourceTree = "<group>"; };
 		4148456E1DB40FC40085667B /* 00000120.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 00000120.jpg; sourceTree = "<group>"; };
-		4148456F1DB40FC40085667B /* LcBasic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LcBasic.cpp; sourceTree = "<group>"; };
-		414845701DB40FC40085667B /* LcBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LcBasic.h; sourceTree = "<group>"; };
-		414845711DB40FC40085667B /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		414845731DB40FC40085667B /* 00000101.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 00000101.jpg; sourceTree = "<group>"; };
 		414845741DB40FC40085667B /* 00000102.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 00000102.jpg; sourceTree = "<group>"; };
 		414845751DB40FC40085667B /* 00000103.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 00000103.jpg; sourceTree = "<group>"; };
@@ -442,6 +437,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4135A97D1DB482250034E4CD /* handtracker */ = {
+			isa = PBXGroup;
+			children = (
+				4135A97E1DB482250034E4CD /* Classifier.cpp */,
+				4135A97F1DB482250034E4CD /* Classifier.h */,
+				4135A9801DB482250034E4CD /* FeatureComputer.cpp */,
+				4135A9811DB482250034E4CD /* FeatureComputer.hpp */,
+				4135A9821DB482250034E4CD /* HandDetector.cpp */,
+				4135A9831DB482250034E4CD /* HandDetector.hpp */,
+				4135A9841DB482250034E4CD /* LcBasic.cpp */,
+				4135A9851DB482250034E4CD /* LcBasic.h */,
+				4135A9861DB482250034E4CD /* main.cpp */,
+			);
+			path = handtracker;
+			sourceTree = SOURCE_ROOT;
+		};
 		414845561DB40FC40085667B /* globfeat */ = {
 			isa = PBXGroup;
 			children = (
@@ -578,17 +589,9 @@
 		434F71831DA1CE0B002A4CC4 = {
 			isa = PBXGroup;
 			children = (
-				414845521DB40FC40085667B /* Classifier.cpp */,
-				414845531DB40FC40085667B /* Classifier.h */,
-				414845541DB40FC40085667B /* FeatureComputer.cpp */,
-				414845551DB40FC40085667B /* FeatureComputer.hpp */,
+				4135A97D1DB482250034E4CD /* handtracker */,
 				414845561DB40FC40085667B /* globfeat */,
-				414845581DB40FC40085667B /* HandDetector.cpp */,
-				414845591DB40FC40085667B /* HandDetector.hpp */,
 				4148455A1DB40FC40085667B /* img */,
-				4148456F1DB40FC40085667B /* LcBasic.cpp */,
-				414845701DB40FC40085667B /* LcBasic.h */,
-				414845711DB40FC40085667B /* main.cpp */,
 				414845721DB40FC40085667B /* mask */,
 				414845871DB40FC40085667B /* models */,
 				41CD6A8C1DB402B6001B0033 /* lib */,
@@ -761,11 +764,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				414845891DB40FC40085667B /* Classifier.cpp in Sources */,
-				4148458C1DB40FC40085667B /* LcBasic.cpp in Sources */,
-				4148458A1DB40FC40085667B /* FeatureComputer.cpp in Sources */,
-				4148458D1DB40FC40085667B /* main.cpp in Sources */,
-				4148458B1DB40FC40085667B /* HandDetector.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
