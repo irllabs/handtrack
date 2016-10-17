@@ -11,10 +11,10 @@ Using this app requires training data.  This project comes with sample training 
 This project is ported to work in Apple's [Xcode]
 Hand Tracker uses Xcode which can be installed from the Mac App Store [here](https://developer.apple.com/xcode/downloads/).
 
-This project also uses the OpenCV library (Version 2.4.13 or 2.4.12) for C++. 
+
 ### OpenCV on OS X
-Two ways to install OpenCV on OS X: 
-  1. Using [Homebrew](http://brew.sh), from the terminal: 
+This project also uses the OpenCV library (Version 2.4.13 or 2.4.12) for C++.  Two ways to install OpenCV on OS X; we recommend the first: 
+  1. Use [Homebrew](http://brew.sh), from the terminal: 
   	```
 	brew update
 	brew tap homebrew/science
@@ -22,7 +22,7 @@ Two ways to install OpenCV on OS X:
 	```
   	
   	* Make sure OpenCV's dependencies are also installed, you can check using `brew info opencv`
-  2. Downloading [OpenCV](http://opencv.org/downloads.html) and building it using [cMake](https://cmake.org/download/)
+  2. Download [OpenCV](http://opencv.org/downloads.html) and build it using [cMake](https://cmake.org/download/)
   	* [This tutorial](http://blogs.wcode.org/2014/10/howto-install-build-and-use-opencv-macosx-10-10/) provides greater detail for setting up OpenCV with cMake and Xcode.
 
 ## Project Installation
