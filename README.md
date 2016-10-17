@@ -2,7 +2,9 @@
 This repository contains code for performing foreground/background segmentation of the human hand in videos from an egocentric perspective, using pixel-level classification.  This project is based on work by Cheng Li and Kris Kitani, and documented in the publication below: 
 
 Cheng Li and Kris M. Kitani.
+
 [Pixel-level Hand Detection for Ego-centric Videos](http://www.cs.cmu.edu/~kkitani/pdf/LK-CVPR13.pdf)
+
 Conference on Computer Vision and Pattern Recognition (CVPR 2013). Jun 2013.
 
 ## Training Data
