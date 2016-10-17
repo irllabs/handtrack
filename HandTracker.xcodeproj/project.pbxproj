@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41B69A601DB485BA00D549EF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4135A9861DB482250034E4CD /* main.cpp */; };
+		41B69A611DB485C500D549EF /* LcBasic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4135A9841DB482250034E4CD /* LcBasic.cpp */; };
+		41B69A621DB485C900D549EF /* Classifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4135A97E1DB482250034E4CD /* Classifier.cpp */; };
+		41B69A631DB485C900D549EF /* FeatureComputer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4135A9801DB482250034E4CD /* FeatureComputer.cpp */; };
+		41B69A641DB485C900D549EF /* HandDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4135A9821DB482250034E4CD /* HandDetector.cpp */; };
 		41CD6ACA1DB402B6001B0033 /* libopencv_calib3d.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CD6A8D1DB402B6001B0033 /* libopencv_calib3d.2.4.13.dylib */; };
 		41CD6ACB1DB402B6001B0033 /* libopencv_calib3d.2.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CD6A8E1DB402B6001B0033 /* libopencv_calib3d.2.4.dylib */; };
 		41CD6ACC1DB402B6001B0033 /* libopencv_calib3d.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CD6A8F1DB402B6001B0033 /* libopencv_calib3d.dylib */; };
@@ -764,6 +769,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41B69A601DB485BA00D549EF /* main.cpp in Sources */,
+				41B69A641DB485C900D549EF /* HandDetector.cpp in Sources */,
+				41B69A611DB485C500D549EF /* LcBasic.cpp in Sources */,
+				41B69A621DB485C900D549EF /* Classifier.cpp in Sources */,
+				41B69A631DB485C900D549EF /* FeatureComputer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
