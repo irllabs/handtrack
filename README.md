@@ -1,11 +1,7 @@
 # Hand Tracker
-This repository contains code for performing foreground/background segmentation of the human hand in videos from an egocentric perspective, using pixel-level classification.  This project is based on work by Cheng Li and Kris Kitani, and documented in the publication below: 
+This repository contains code for performing foreground/background segmentation of the human hand in videos from an egocentric perspective, using pixel-level classification.  This project is based on [work by Cheng Li and Kris Kitani](http://www.cs.cmu.edu/~kkitani/datasets/), and described in the publication below: 
 
-Cheng Li and Kris M. Kitani.
-[Pixel-level Hand Detection for Ego-centric Videos](http://www.cs.cmu.edu/~kkitani/pdf/LK-CVPR13.pdf)
-Conference on Computer Vision and Pattern Recognition (CVPR 2013). Jun 2013.
-
-This project relies on OpenCV.
+Li, Cheng, and Kris M. Kitani. "Pixel-level hand detection in ego-centric videos." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2013. [(pdf)](http://www.cs.cmu.edu/~kkitani/pdf/LK-CVPR13.pdf)
 
 ## Training Data
 Using this app requires training data.  This project comes with sample training data, but you can create your own by labeling images using [Kitani's 'Labeling Tool'](http://www.cs.cmu.edu/~kkitani/perpix/code_grabcut/), which we have also ported to work with the latest Xcode IDE. You can find it [here](https://github.com/cmuartfab/grabcut).
@@ -15,10 +11,10 @@ Using this app requires training data.  This project comes with sample training 
 This project is ported to work in Apple's [Xcode]
 Hand Tracker uses Xcode which can be installed from the Mac App Store [here](https://developer.apple.com/xcode/downloads/).
 
-This project also uses the OpenCV library (Version 2.4.13 or 2.4.12) for C++. 
+
 ### OpenCV on OS X
-Two ways to install OpenCV on OS X: 
-  1. Using [Homebrew](http://brew.sh), from the terminal: 
+This project also uses the OpenCV library (Version 2.4.13 or 2.4.12) for C++.  Two ways to install OpenCV on OS X; we recommend the first: 
+  1. Use [Homebrew](http://brew.sh), from the terminal: 
   	```
 	brew update
 	brew tap homebrew/science
@@ -26,7 +22,7 @@ Two ways to install OpenCV on OS X:
 	```
   	
   	* Make sure OpenCV's dependencies are also installed, you can check using `brew info opencv`
-  2. Downloading [OpenCV](http://opencv.org/downloads.html) and building it using [cMake](https://cmake.org/download/)
+  2. Download [OpenCV](http://opencv.org/downloads.html) and build it using [cMake](https://cmake.org/download/)
   	* [This tutorial](http://blogs.wcode.org/2014/10/howto-install-build-and-use-opencv-macosx-10-10/) provides greater detail for setting up OpenCV with cMake and Xcode.
 
 ## Project Installation
