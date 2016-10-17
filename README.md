@@ -5,8 +5,6 @@ Cheng Li and Kris M. Kitani.
 [Pixel-level Hand Detection for Ego-centric Videos](http://www.cs.cmu.edu/~kkitani/pdf/LK-CVPR13.pdf)
 Conference on Computer Vision and Pattern Recognition (CVPR 2013). Jun 2013.
 
-This project relies on OpenCV.
-
 ## Training Data
 Using this app requires training data.  This project comes with sample training data, but you can create your own by labeling images using [Kitani's 'Labeling Tool'](http://www.cs.cmu.edu/~kkitani/perpix/code_grabcut/), which we have also ported to work with the latest Xcode IDE. You can find it [here](https://github.com/cmuartfab/grabcut).
 
