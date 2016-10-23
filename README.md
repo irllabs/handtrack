@@ -30,16 +30,16 @@ To install the Hand Tracking project, complete the following steps.
 
 1. Clone this repository: `git clone https://github.com/cmuartfab/handtrack.git`
 
-2. Double click `HandTracker.xcodeproj` to open it in Xcode
+2. Double click the `HandTracker` xcode project (the file with the blue icon) to open it in Xcode
 
-3. In Xcode, right click on `HandTracker.xcodeproj` and select `add files to Hand Tracker`.
+3. In Xcode, on the top level toolbar navigate to `File -> Add files to HandTracker`.
 4. When the file window pops up, press `/` to open the folder option. Type in `usr/local/lib` and hit Go.
-5. When in the usr/local/lib folder, **select all** of the *libopencv.dylib* files 
+5. When in the usr/local/lib folder, **select all** of the *.dylib* files that start with *libopencv*. 
 4. Before you click add:
 	* Make sure `Add to targets: Hand Tracker` is selected.
 	* Make sure `Added Folder: Create Groups` is selected.
-5. Click Add. You should see all the `libopencv.dylib` files in the HandTracker project folder. 
-6. In Xcode, click on `HandTracker.xcodeproj` to open the build settings.
+5. Click Add. You should see all the libopencv `.dylib` files in the HandTracker project folder. 
+6. In Xcode, click on `HandTracker` xcode project to open the build settings.
 7. Under *targets* on the left column, select HandTracker.
 8. Make sure `Library Search Paths` points to where OpenCV is installed on your machine.
 	* If you used Homebrew, it should be in `usr/local/Cellar`
