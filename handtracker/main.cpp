@@ -10,8 +10,8 @@ using namespace cv;
 
 int main (int argc, char * const argv[])
 {
-    bool TRAIN_MODEL = 0;
-    bool TEST_MODEL  = 1;
+    bool TRAIN_MODEL = 0;           //1 if you are training the models, 0 if you are running the program to predict
+    bool TEST_MODEL  = 1;           //0 if you are training the models, 1 if you are running the program to predict
     
     int target_width = 320;			// for resizing the input (small is faster)
     
@@ -33,7 +33,7 @@ int main (int argc, char * const argv[])
     int step_size = 3;
     
     // Assumes a certain file structure e.g., /root/img/basename/00000000.jpg
-    string root = "";       //TODO INSERT ABSOLUTE PATH 
+    string root = "/Users/ali/Documents/Development/handtrack/";       //replace with path to your Xcode project
     string basename = "";
     string img_prefix		= root + "img"		+ basename + "/";			// color images
     string msk_prefix		= root + "mask"     + basename + "/";			// binary masks
